@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Quiz App
+
+This is a React-based quiz app.
+
+### Features
+
+- Multiple choice questions
+- Score tracking
+- Timer
+- Responsive layout
+
+### How to Run
+
+1. **Start the fake API server** (you need `json-server` installed):
+
+```bash
+npm run server
+```
+
+Run the app in another terminal:
+npm start
