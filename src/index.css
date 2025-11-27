@@ -42,10 +42,17 @@ body {
 
 .app-header {
   width: 66rem;
-  margin: 0 auto 4rem auto; /* centers the container horizontally and keeps bottom margin */
+  margin: 0 auto 4rem auto;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 720px) {
+  .app-header {
+    flex-wrap: wrap;
+    width: 100%;
+  }
 }
 
 .error {
@@ -64,6 +71,10 @@ img {
 h1 {
   font-family: "Codystar";
   font-size: 5.6rem;
+  font-family: "Codystar";
+  font-size: 5.6rem;
+  text-align: center;
+  width: 100%;
 }
 
 h2 {
